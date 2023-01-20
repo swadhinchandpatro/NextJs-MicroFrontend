@@ -111,7 +111,7 @@ const { data , } = useService(GET_FILMS_LIST_SERVICE);
 
 Similarly , we can expose for view Reducers . Pls , see counter example.
 
-# How to expose API to Consumer Project ??
+# How to expose API to Other Microfronted Project ??
 
 - Add api reducers and middlewares to federatedMiddlewareReducers which are going to be exposed 
 ```sh
@@ -126,6 +126,6 @@ export const federatedReducers = {
 
 ```
 
-Rest , will be handled in consumer .
+Rest , will be handled by other microfrontend project .
 
-For More Queries contact @VipulPathak
+For More Queries please create issues to improve further
