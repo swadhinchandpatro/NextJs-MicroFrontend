@@ -14,7 +14,7 @@ echo $BUILD_ID
 if [[ -z "$1" ]]; then
 #    echo -e "\nPlease call '$0 <image>' to deploy this image!\n"
 #    exit 1
-     IMAGE="veative/lyc/web/marketing"
+     IMAGE="nextjs/microfrontend"
 fi
 
 ENVFILE=$2
