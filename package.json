@@ -1,0 +1,43 @@
+{
+  "name": "nextJs-microfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "5.2.1",
+    "@reduxjs/toolkit": "^1.9.0",
+    "@sentry/nextjs": "^7.19.0",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "@types/react-redux": "^7.1.24",
+    "axios": "^1.2.0",
+    "crypto-js": "^4.1.1",
+    "lodash-es": "^4.17.21",
+    "component-library": "git+ssh://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:x-oauth-basic@github.com/DevClever-India/Component-Library.git#LV-191",
+    "next": "13.0.1",
+    "next-redux-wrapper": "^8.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "sass": "^1.56.2",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/lodash-es": "^4.17.6",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1"
+  },
+  "peerDependencies": {
+    "turbo": "latest"
+  }
+}

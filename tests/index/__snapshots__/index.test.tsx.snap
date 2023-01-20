@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders a heading 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <main
+      class="main"
+    >
+      <h1
+        class="title"
+      >
+        Welcome to 
+        <a
+          href="https://nextjs.org"
+        >
+          Next (host)!
+        </a>
+      </h1>
+    </main>
+    <footer
+      class="footer"
+    >
+      <a
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by
+         
+        <span
+          class="logo"
+        >
+          <img
+            alt="Vercel Logo"
+            data-nimg="1"
+            decoding="async"
+            height="16"
+            loading="lazy"
+            src="/vercel.svg"
+            srcset="/vercel.svg 1x, /vercel.svg 2x"
+            style="color: transparent;"
+            width="72"
+          />
+        </span>
+      </a>
+    </footer>
+  </div>
+</div>
+`;
